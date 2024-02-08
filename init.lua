@@ -15,7 +15,7 @@ local custom_plugin_options = {
 		"option"
 	},
 	custom = {
-		"init_window",
+		"window_init",
 	}
 }
 
