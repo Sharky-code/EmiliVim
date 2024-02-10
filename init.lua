@@ -16,6 +16,7 @@ local custom_plugin_options = {
 	},
 	custom = {
 		"window_init",
+		--"image"
 	}
 }
 
