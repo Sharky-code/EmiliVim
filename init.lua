@@ -24,4 +24,3 @@ end
 
 vim.cmd("TransparentDisable")
 vim.cmd("color tokyonight")
-

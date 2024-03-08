@@ -15,4 +15,16 @@ return {
 	"kevinhwang91/promise-async",
 	"MunifTanjim/nui.nvim",
 	"rcarriga/nvim-notify",
+	--[[
+	{
+		'vigoux/ltex-ls.nvim',
+		requires = 'neovim/nvim-lspconfig',
+		config = function()
+			require'ltex-ls'.setup {
+				use_spellfile = false,
+				window_border = 'single',
+			}
+		end
+	}
+	]]
 }

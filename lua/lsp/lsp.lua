@@ -60,6 +60,8 @@ require("lspconfig").clangd.setup {
 	},
 }
 
+-- require("lspconfig").omnisharp.setup()
+
 require("lspconfig").lua_ls.setup {
 	settings = {
 		Lua = {
