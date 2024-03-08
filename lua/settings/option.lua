@@ -25,6 +25,7 @@ local options = {
 	termguicolors = true,
 	numberwidth = 1,
 	cmdheight = 0,
+	clipboard = "unnamedplus", -- allows neovim to access the system clipboard
 }
 
 -- Uses the vim command to turn the table into options
